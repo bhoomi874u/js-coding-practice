@@ -32,4 +32,4 @@ function isPrime(n){
      console.log("Iterations:", count);
     return true;
 }
- console.log(isPrime(9))
+ console.log(isPrime(9));
