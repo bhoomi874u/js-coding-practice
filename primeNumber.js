@@ -22,14 +22,15 @@ function isPrime(n){
     }
     for(i=2;i<n;i++){
          count++;
-        if(n%i===0 && n%n===0 ){
+        if(n%i===0 ){
           
  console.log( "Iteration :"+count);
             return false;
+
         }
 
     }
      console.log("Iterations:", count);
     return true;
 }
- console.log(isPrime(9));
+ console.log(isPrime(7));
